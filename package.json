@@ -14,9 +14,13 @@
     "build:es": "cross-env NODE_ENV=production rollup --config dev/rollup.config.js --format es"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^34.0.0",
+    "@ckeditor/ckeditor5-vue": "^4.0.0",
+    "@popperjs/core": "^2.11.5",
     "core-js": "^3.6.5"
   },
   "devDependencies": {
+    "bootstrap": "^5.1.3",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-typescript": "^7.14.5",
